@@ -1,0 +1,44 @@
+@import "../libs/fontello/css/fontello.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.title{
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: #23283B;
+  margin: 22px 0 42px;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+
+
+@import "button.css";
+@import "description.css";
+
+
+@import "header.css";
+@import "hero.css";
+@import "welcome.css";
+@import "programs.css";
+@import "review.css";
+
+@import "overlay.css";
+

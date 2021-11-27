@@ -1,0 +1,20 @@
+.button {
+  width: 229px;
+  height: 48px;
+  background: #E6514A;
+  border-radius: 40px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  column-gap: 7px;
+}
+.button:hover {
+  background: #E6514A;
+}
+
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,56 @@
+.review {
+  padding: 80px 0;
+  background: #FFFFFF;
+}
+.review__title {
+  margin-bottom: 52px;
+}
+.review__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.review__item {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #3035C350;
+  transition: 3s;
+  cursor: pointer;
+  position: relative;
+}
+.review__item::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: #E6514A;
+  bottom: -20px;
+  left: 0;
+  transition: 3s;
+}
+.review__item span {
+  transition: 3s;
+  opacity: 0;
+  font-size: 0;
+}
+.review__item_active {
+  color: #E6514A;
+  transition: 2s;
+}
+.review__item_active span {
+  opacity: 100%;
+  font-size: 18px;
+  transition: 2s;
+}
+.review__tabs-content {
+  display: none;
+}
+.review__tabs-content_active {
+  display: block;
+}
+
+/*# sourceMappingURL=review.css.map */

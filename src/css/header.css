@@ -1,0 +1,68 @@
+.header {
+  padding: 16px 0;
+}
+.header__top {
+  padding-bottom: 18px;
+  border: 1px solid #DEDEFF50;
+  display: flex;
+  justify-content: space-between;
+}
+.header__icons {
+  display: flex;
+  column-gap: 21px;
+}
+.header__social {
+  color: black;
+}
+.header__social:hover {
+  color: #E6514A;
+}
+.header__numbers {
+  display: flex;
+  column-gap: 21px;
+}
+.header__numbers-icon {
+  color: #E6514A;
+}
+.header__numbers-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #23283B;
+}
+.header__bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__navigation {
+  column-gap: 102px;
+  display: flex;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  column-gap: 32px;
+}
+.header__link {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #23283B;
+}
+.header__link:hover {
+  color: #23283B;
+}
+.header__phone {
+  transform: rotate(-45deg);
+}
+
+/*# sourceMappingURL=header.css.map */
